@@ -72,7 +72,7 @@ stages:
     cfSpace: "dev"
     cfAppName: "coins"
     cfCredentialId: "deploy-to-cf-coins"
-    tmsUpload: true
+    tmsUpload: false
 
 steps:
   artifactPrepareVersion:
