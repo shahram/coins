@@ -44,6 +44,7 @@
 general:
   buildTool: "mta"
   buildToolVersion: "MBTJ11N14"
+  verbose: true
 
 stages:
   build:
@@ -61,7 +62,7 @@ stages:
     cfOrg: "dev-jlabs"
     cfSpace: "dev"
     cfAppName: "coins"
-    cfCredentialId: "deploy-to-cf-conis"
+    cfCredentialId: "deploy-to-cf-coins"
     uiVeri5ExecuteTests: false
 
   release:
@@ -70,7 +71,7 @@ stages:
     cfOrg: "dev-jlabs"
     cfSpace: "dev"
     cfAppName: "coins"
-    cfCredentialId: "deploy-to-cf-conis"
+    cfCredentialId: "deploy-to-cf-coins"
     tmsUpload: true
 
 steps:
